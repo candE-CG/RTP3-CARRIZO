@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Roboto,sans-serif;
+  background-color: #f5f5f6;
+  background-size: cover;
+  color: #3e2f1c;
+  line-height: 1.6;
+  padding: 0px;
+}
+
+header {
+  position: relative;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 30px 0;
+}
+
+.logo {
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+
+.logo img {
+    width: 100%;
+    display: block;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 15px;
+  text-align: right;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #3e2f1c;
+}
+
+main {
+  text-align: center;
+  min-height: 80vh;
+  padding-bottom: 50px;
+}
+
+section {
+  padding: 100px;
+}
+
+.img-container {
+  height: 70%;
+  padding: 100px;
+}
+
+#img-entrada{
+  background-image: url("../img/entrada.jpg");
+}
+#img-plato{
+  background-image: url("../img/plato.jpg");
+}
+#img-postres{
+  background-image: url("../img/postre.jpg");
+}
+
+.infoind {
+  text-align: center;
+  padding: 40px;
+  margin: 173px auto 0;
+  max-width: 800px;
+  color: white;
+  background-color: #000000c7;
+  border-radius: 20px;
+}
+
+.info{
+  float: right;
+  padding: 80px;
+  text-align: left;
+}
+
+#main section {
+  
+  color: white;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+#h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+#ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+
+
+.cajas img {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #3b2618;
+}
+
+footer {
+  width: 100%;
+  background-color: #3b2618;
+  padding: 25px 0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+.right {
+  text-align: center;
+}
+
+.infoind h2 {
+    margin-bottom: 40px;
+    font-size: 35px;
+    line-height: 1.2;
+}
